@@ -3,6 +3,7 @@ padding: 0;
 margin: 0;
 font-family: 'Poiret One', cursive;
 font-family: 'Signika', sans-serif;
+}
 
 .menu{
     background-color: black;
@@ -13,6 +14,7 @@ font-family: 'Signika', sans-serif;
     margin: auto;
     height: 70px;
 }
+
 .logo{
     width: 150px;
     margin-bottom: 25px;
@@ -27,13 +29,14 @@ font-family: 'Signika', sans-serif;
     display: flex;
     gap: 15px;
 }
+
 .article img{
     width: 142px;
     height: 142px;
     
 }
+
 .div2 {
     display: flex;
     text-align: center;
 }
-
