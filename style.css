@@ -18,6 +18,22 @@
     color: green;
 }
 
+.bar {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: white;
+}
+
+@media(min-width: 481px) {
+    .hamburger {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 480px) {
     .menu {
         background-color: black;
@@ -28,18 +44,27 @@
         margin: auto;
         height: 70px;
     }
+
     .menu a:hover {
         color: green;
     }
+
     .logo {
         width: 550px;
         margin-bottom: 700px;
     }
-    .type{
+
+    .type {
         display: none;
     }
-    
-    
+
+    .div2 {
+        flex-direction: column;
+    }
+
+    .article {
+        display: flex;
+    }
 }
 
 .logo {
@@ -248,21 +273,6 @@ ul li a:hover {
     margin: 2px;
     font-size: smaller;
 }
-
-
-@media only screen and (max-width: 700px) {
-    .item5 img {
-        width: 30px;
-
-    }
-
-    .first {
-        font-size: 10px;
-    }
-
-}
-
-
 
 ul li a {
     color: white;
