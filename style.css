@@ -1,11 +1,10 @@
-*{
-padding: 0;
-margin: 0;
-font-family: 'Poiret One', cursive;
-font-family: 'Signika', sans-serif;
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.menu{
+.menu {
     background-color: black;
     display: flex;
     justify-content: space-around;
@@ -15,59 +14,100 @@ font-family: 'Signika', sans-serif;
     height: 70px;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: green;
 }
 
-.logo{
+@media screen and (max-width: 480px) {
+    .menu {
+        background-color: black;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 15px;
+        margin: auto;
+        height: 70px;
+    }
+    .menu a:hover {
+        color: green;
+    }
+    .logo {
+        width: 550px;
+        margin-bottom: 700px;
+    }
+    .type{
+        display: none;
+    }
+    
+    
+}
+
+.logo {
     width: 150px;
     margin-bottom: 25px;
 }
 
-.type{
+.type {
     text-decoration: none;
     color: white;
 }
 
-.blu{
+.blu {
     width: 100%;
-    height: 450px;
-    background-color: rgb(42, 70, 247);
+    height: 350px;
+    background-color: rgb(52, 152, 235);
     color: white;
     font-size: larger;
     text-align: left;
+    padding-top: 120px;
+    padding-left: 300px;
 }
 
-.h4{
-    padding-top: 120px ;
-    padding-left: 200px;
-    
+.bott {
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.bott2 {
+    color: black;
+    background-color: transparent;
+    border: white 2px solid;
+    border-radius: 20px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 
-
-
-h4{
-    margin-top: 40px;
+h4 {
+    margin-top: 20px;
     font-size: larger;
 }
 
-.justify{
-margin-top: 10px;
+.justify {
+    margin-top: 10px;
+    margin-bottom: 90px;
 }
 
-.div{
+.div {
     display: flex;
     justify-content: center;
     text-anchor: middle;
     gap: 20px
-    
 }
 
-.article img{
+.article img {
     width: 142px;
     height: 142px;
-    gap : 15px
+    gap: 15px;
+    border-radius: 50%;
 }
 
 .div2 {
@@ -79,8 +119,153 @@ margin-top: 10px;
     margin-left: 180px;
 }
 
-.h2{
- text-align: center;
- margin-top: 70px;
+.h2 {
+    text-align: center;
+    margin-top: 70px;
 }
 
+.gris {
+    width: 100%;
+    height: 1000px;
+    background-color: rgb(215, 215, 215);
+}
+
+.elige {
+    padding-top: 80px;
+    text-align: center;
+}
+
+.bajo {
+    margin-top: 10px;
+}
+
+.secFath {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.sec1 {
+    width: 300px;
+    margin-top: 40px;
+    background-color: white;
+    border-radius: 5%;
+    padding: 40px;
+
+}
+
+.bottSec {
+    margin-top: 15px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    border-radius: 20px;
+    padding: 20px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mes {
+    background-color: rgb(52, 152, 235);
+    width: 90px;
+    color: white;
+    padding: 3px;
+    margin-bottom: 5px;
+}
+
+.hr {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.p {
+    margin-top: 30px;
+    font-size: small;
+    color: rgb(170, 170, 170);
+}
+
+.buttdiv {
+    display: flex;
+    justify-content: center;
+}
+
+.ciccia {
+    margin-bottom: 150px;
+
+}
+
+footer {
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    background-color: rgb(0, 0, 0);
+    font-size: larger;
+    text-align: left;
+    padding-top: 120px;
+    padding-left: 200px;
+
+}
+
+.logo2 {
+    width: 150px;
+    margin-bottom: 25px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    background-color: black;
+    color: aliceblue;
+    font-size: 20px;
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+.first {
+    color: rgb(182, 177, 177);
+    font-size: 16px;
+}
+
+ul li a {
+    color: white;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+    color: rgb(2, 251, 2);
+}
+
+.item5 img {
+    width: 40px;
+}
+
+.item5 ul li {
+    display: inline-block;
+    margin: 2px;
+    font-size: smaller;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .item5 img {
+        width: 30px;
+
+    }
+
+    .first {
+        font-size: 10px;
+    }
+
+}
+
+
+
+ul li a {
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+}
